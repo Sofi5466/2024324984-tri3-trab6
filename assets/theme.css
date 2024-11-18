@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  font-family: 'Host Grotesk', sans-serif;
+}
+
+header {
+  background-image: linear-gradient(120deg, #31379C, #CA4690);
+  margin-bottom: 1rem;
+  transform-origin: 0 0;
+  color: #FFF;
+  padding: 2rem 5rem;
+
+  &::before {
+    content: ""
+  }
+}
+
+
+main {
+  background-color: transparent;
+
+  &::before {
+    content: ""
+  }
+}
+
+main p {
+  padding: 0 1rem;
+  color: #333;
+}
+
+main .galeria {
+  gap: 5px
+}
+
+main .galeria>div {
+  border: none;
+  transition: .15s;
+  position: relative;
+  border-radius: 5px;
+}
+
+aside {
+  background-color: plum;
+  overflow: hidden;
+
+  &::before {
+    content: ""
+  }
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  color: #333;  
+  padding: 1rem;
+  transition: 0.3s ease-in-out;   
+  position: relative; 
+  overflow: hidden; 
+}
+
+aside a:hover {
+  background-color: rgba(0, 0, 0, 0.1); 
+  padding-left: 1.5rem; 
+  box-shadow: 3px 0 8px rgba(0, 0, 0, 0.2);  
+}
+
+footer {
+  margin-top: 0,5rem;
+}
+
+dialog {
+  min-width: auto;
+}
+
+footer {
+  background-image: linear-gradient(120deg, #656be1, #CA4690);
+
+  &::before {
+    content: ""
+  }
+}
